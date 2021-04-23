@@ -26,7 +26,7 @@ public class program_kel14 {
         public static void dekripsi(String b){
             char [] chars = b.toCharArray();
             for(char c : chars){
-                c -= 5;
+                c -= 10;
                 System.out.print(c);
             }
         }
